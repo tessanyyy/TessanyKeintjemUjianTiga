@@ -1,6 +1,6 @@
-package com.juaracoding.selenium.pageobject.drivers.strategies;
+package com.juaracoding.tessanyujiantiga.pageobject.drivers.strategies;
 
-import com.juaracoding.selenium.pageobject.utils.Constants;
+import com.juaracoding.tessanyujiantiga.pageobject.utils.Constants;
 
 public class DriverStrategyImplementer {
     public static DriverStrategy chooseStrategy(String strategy) {

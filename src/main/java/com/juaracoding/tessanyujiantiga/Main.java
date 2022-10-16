@@ -1,13 +1,13 @@
-package com.juaracoding.selenium;
+package com.juaracoding.tessanyujiantiga;
 
-import com.juaracoding.selenium.pageobject.drivers.DriverSingleton;
+import com.juaracoding.tessanyujiantiga.pageobject.drivers.DriverSingleton;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import com.juaracoding.selenium.pageobject.pages.AddtoCart;
-import com.juaracoding.selenium.pageobject.pages.Dashboard;
-import com.juaracoding.selenium.pageobject.pages.Login;
-import com.juaracoding.selenium.pageobject.pages.Register;
-import com.juaracoding.selenium.pageobject.utils.Constants;
+import com.juaracoding.tessanyujiantiga.pageobject.pages.AddtoCart;
+import com.juaracoding.tessanyujiantiga.pageobject.pages.Dashboard;
+import com.juaracoding.tessanyujiantiga.pageobject.pages.Login;
+import com.juaracoding.tessanyujiantiga.pageobject.pages.Register;
+import com.juaracoding.tessanyujiantiga.pageobject.utils.Constants;
 
 public class Main {
 

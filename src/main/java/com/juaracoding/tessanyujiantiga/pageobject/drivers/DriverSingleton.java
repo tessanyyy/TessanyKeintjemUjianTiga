@@ -1,8 +1,8 @@
-package com.juaracoding.selenium.pageobject.drivers;
+package com.juaracoding.tessanyujiantiga.pageobject.drivers;
 
-import com.juaracoding.selenium.pageobject.drivers.strategies.DriverStrategy;
-import com.juaracoding.selenium.pageobject.drivers.strategies.DriverStrategyImplementer;
-import com.juaracoding.selenium.pageobject.utils.Constants;
+import com.juaracoding.tessanyujiantiga.pageobject.drivers.strategies.DriverStrategy;
+import com.juaracoding.tessanyujiantiga.pageobject.drivers.strategies.DriverStrategyImplementer;
+import com.juaracoding.tessanyujiantiga.pageobject.utils.Constants;
 import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;

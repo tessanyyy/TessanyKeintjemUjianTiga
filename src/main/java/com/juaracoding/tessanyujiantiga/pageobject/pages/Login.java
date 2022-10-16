@@ -1,6 +1,6 @@
-package com.juaracoding.selenium.pageobject.pages;
+package com.juaracoding.tessanyujiantiga.pageobject.pages;
 
-import com.juaracoding.selenium.pageobject.drivers.DriverSingleton;
+import com.juaracoding.tessanyujiantiga.pageobject.drivers.DriverSingleton;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

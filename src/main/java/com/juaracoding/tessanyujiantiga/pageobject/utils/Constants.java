@@ -1,4 +1,4 @@
-package com.juaracoding.selenium.pageobject.utils;
+package com.juaracoding.tessanyujiantiga.pageobject.utils;
 
 public class Constants {
     public static final int TIMEOUT = 10;

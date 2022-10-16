@@ -1,4 +1,4 @@
-package com.juaracoding.selenium.pageobject.drivers.strategies;
+package com.juaracoding.tessanyujiantiga.pageobject.drivers.strategies;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
