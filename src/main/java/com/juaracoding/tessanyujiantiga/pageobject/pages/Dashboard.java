@@ -18,10 +18,10 @@ public class Dashboard {
     WebElement dissmissClick;
 
     @FindBy(xpath = "//*[@id=\"noo-site\"]/header/div[1]/div/ul[2]/li[2]/a")
-    WebElement myAccountClick;
+    WebElement ClickAccount;
 
     public void dashboard() {
         dissmissClick.click();
-        myAccountClick.click();
+        ClickAccount.click();
     }
 }

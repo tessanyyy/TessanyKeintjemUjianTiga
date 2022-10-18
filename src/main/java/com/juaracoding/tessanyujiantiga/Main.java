@@ -16,16 +16,14 @@ public class Main {
         WebDriver driver = DriverSingleton.getDriver();
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
-        Dashboard dashboard = new Dashboard();
-        Register register = new Register();
-        Login login = new Login();
-        AddtoCart addCart = new AddtoCart();
 
         // Dashboard
+        Dashboard dashboard = new Dashboard();
         driver.get(Constants.URL);
         dashboard.dashboard();
 
         // Register Account
+        Register register = new Register();
         driver.get(Constants.URL_LOGIN);
         register.registerForm("Tessany", "tessanykeintjem@gmail.com", "Tessany3456");
 
@@ -33,16 +31,18 @@ public class Main {
         driver.navigate().refresh();
 
         // Login Account
+        Login login = new Login();
         login.loginForm("tessanykeintjem@gmail.com", "Tessany3456");
 
-        //Item list one product
+        //Item one product
+        AddtoCart addCart = new AddtoCart();
         driver.get(Constants.URL_SHOP);
-        js.executeScript("window.scrollBy(0,550)");
+        js.executeScript("window.scrollBy(0,300)");
         addCart.shopItem();
 
         // Add item in cart
         driver.get(Constants.URL_DETAIL_SHOP);
-        js.executeScript("window.scrollBy(0,500)");
+        js.executeScript("window.scrollBy(0,300)");
         addCart.addToCart();
 
         try {

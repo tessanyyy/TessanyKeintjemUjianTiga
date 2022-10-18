@@ -10,5 +10,5 @@ public class Constants {
 
     public static final String URL_SHOP = "https://shop.demoqa.com/shop/";
 
-    public static final String URL_DETAIL_SHOP = "https://shop.demoqa.com/product/black-cross-back-maxi-dress/";
+    public static final String URL_DETAIL_SHOP = "https://shop.demoqa.com/product/black-lux-graphic-t-shirt/";
 }

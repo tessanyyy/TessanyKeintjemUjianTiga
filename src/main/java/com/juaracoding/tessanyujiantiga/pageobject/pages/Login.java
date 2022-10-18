@@ -24,7 +24,7 @@ public class Login {
     WebElement visiblePassword;
 
     @FindBy(id = "rememberme")
-    WebElement checklistRememberme;
+    WebElement Rememberme;
 
     @FindBy(xpath = "//*[@id=\"customer_login\"]/div[1]/form/p[3]/button")
     WebElement btnLogin;
@@ -35,7 +35,7 @@ public class Login {
         this.passwordLogin.sendKeys(password);
         System.out.println("insert password login");
         visiblePassword.click();
-        checklistRememberme.click();
+        Rememberme.click();
         btnLogin.click();
     }
 }

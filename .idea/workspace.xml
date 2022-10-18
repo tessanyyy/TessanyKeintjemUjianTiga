@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ea8fbf-c52b-4b51-91d6-a1e5c00b81bd" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/drivers/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/drivers/DriverSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/drivers/strategies/Chrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/drivers/strategies/Chrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/drivers/strategies/DriverStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/drivers/strategies/DriverStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/drivers/strategies/DriverStrategyImplementer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/drivers/strategies/DriverStrategyImplementer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/drivers/strategies/Firefox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/drivers/strategies/Firefox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/pages/AddtoCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/AddtoCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/pages/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/pages/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/WebTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/selenium/pageobject/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/AddtoCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/AddtoCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/pages/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/pageobject/utils/Constants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.tessanyujiantiga.Main" />
@@ -96,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665937473661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First Commit">
+      <created>1665938124286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665938124286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,5 +114,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juaracoding/tessanyujiantiga/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -17,7 +17,7 @@ public class AddtoCart {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//*[@id=\"noo-site\"]/div[2]/div[2]/div/div/div[1]/div/h3/a")
+    @FindBy(xpath = "//*[@id=\"noo-site\"]/div[2]/div[2]/div/div/div[2]/div/h3/a")
     WebElement clickItem;
 
     @FindBy(id = "pa_color")
@@ -26,10 +26,10 @@ public class AddtoCart {
     @FindBy(id = "pa_size")
     WebElement size;
 
-    @FindBy(xpath = "//*[@id=\"product-1162\"]/div[1]/div[2]/form/div/div[2]/div/div/button[2]")
-    WebElement clickQtyIncrement;
+    @FindBy(xpath = "//*[@id=\"product-1485\"]/div[1]/div[2]/form/div/div[2]/div")
+    WebElement clickQty;
 
-    @FindBy(xpath = "//*[@id=\"product-1162\"]/div[1]/div[2]/form/div/div[2]/button")
+    @FindBy(xpath = "//*[@id=\"product-1485\"]/div[1]/div[2]/form/div/div[2]/button")
     WebElement btnAddCart;
 
     @FindBy(id = "nav-menu-item-cart")
@@ -47,10 +47,10 @@ public class AddtoCart {
 
         selectMenuColor.selectByValue("black");
         System.out.println("Select Menu Color");
-        selectMenuSize.selectByValue("large");
+        selectMenuSize.selectByValue("34");
         System.out.println("Select Menu Size");
-        clickQtyIncrement.click();
-        System.out.println("Click button inqrement qty");
+        clickQty.click();
+        System.out.println("Click button qty");
         btnAddCart.click();
         System.out.println("Click button addcart");
         btnViewCart.click();
